@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zigzag</title>
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: 300px 600px 300px;
+            justify-content: center;
+          }
+          .grid1{
+            display: grid;
+            grid-template-columns: 600px 300px 300px;
+            justify-content: center;
+          }
+          .grid2{
+            display: grid;
+            grid-template-columns: 300px 300px 600px;
+            justify-content: center;
+          }
+        .b1{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(33,120,103);
+            border: 1px solid white;
+           margin: 2.0em;
+           border-radius: 10px;
+        }
+        .b2{
+            height: 200px;
+            width: 500px;
+            background-color: rgb(33,120,103);
+            border: 1px solid white;
+            margin: 2.0em;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="b1"></div>
+        <div class="b2"></div>
+        <div class="b1"></div>
+    </div>
+    <div class="grid1">
+        <div class="b2"></div>
+        <div class="b1"></div>
+        <div class="b1"></div>
+    </div>
+    <div class="grid2">
+        <div class="b1"></div>
+        <div class="b1"></div>
+        <div class="b2"></div>
+    </div>
+</body>
+</html>
